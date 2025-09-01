@@ -1,7 +1,11 @@
 i = 1
 c = 3
-b = []
+b=[]
 while i <= c:
- a=int(input("Enter:")) 
- b.append(a)
- i+=1 
+ try:
+  a=int(input("Enter:")) 
+  b.append(a)
+  i+=1 
+ except:
+  print("Error")
+print(b)

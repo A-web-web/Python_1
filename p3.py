@@ -29,3 +29,4 @@ if found:
 else:
     print(f"Element {target_element} not found in the list.")
   
+print("Good luck")
